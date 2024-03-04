@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/@anthropic-ai/tokenizer.svg)](https://npmjs.org/package/@anthropic-ai/tokenizer)
 
-This package provides a convenient way to check how many tokens a given piece of text will be.
+⚠️ This package can be used to count tokens for Anthropic's older models. As of the Claude 3 models, this algorithm is no longer accurate, but can be used as a very rough approximation. We suggest that you rely on `usage` in the response body wherever possible.
 
 ## Installation
 
